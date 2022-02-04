@@ -3,7 +3,7 @@ import org.junit.*;
 
 public class AddTest {
     @Test
-    void testAdd() {
+    public void testAdd() {
 	Add a = new Add();
 	assertEquals(2, a.add(1,1));
     }
